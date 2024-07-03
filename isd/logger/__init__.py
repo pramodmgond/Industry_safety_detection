@@ -5,7 +5,9 @@ from from_root import from_root
 
 LOG_FILE = f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
 
-log_path = os.path.join(from_root(), 'log', LOG_FILE)
+f_path = fr"C:\Users\pramod\Desktop\INURON\MLOPS_DS_Project\Industry_safety_detection\Industry_safety_detection"
+
+log_path = os.path.join(f_path, 'log', LOG_FILE)
 
 os.makedirs(log_path, exist_ok=True)
 

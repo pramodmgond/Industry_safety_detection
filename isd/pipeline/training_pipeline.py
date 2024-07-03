@@ -3,9 +3,9 @@ from isd.logger import logging
 from isd.exception import isdException
 from isd.configuration.s3_operations import S3Operation
 from isd.components.data_ingestion import DataIngestion
-# from isd.components.data_validation import DataValidation
-# from isd.components.model_trainer import ModelTrainer
-# from isd.components.model_pusher import ModelPusher
+from isd.components.data_validation import DataValidation
+from isd.components.model_trainer import ModelTrainer
+from isd.components.model_pusher import ModelPusher
 
 
 from isd.entity.config_entity import (DataIngestionConfig,
